@@ -1,8 +1,16 @@
 # Useful Linux commnds for CachyOS (& other Arch based systems)
 
-Boot order & timeout (systemd-boot)
+## Boot order & timeout (systemd-boot)
 
 `/boot/loader/loader.conf` - change timeout 0
+
+## Cachy specific aliases
+
+Located at `usr/share/cachyos-fish-config/cahyos-config.fish`
+
+`update` = sudo pacman -Syu
+
+`cleanup` = sudo pacman -Rns (pacman -Qtdq)
 
 ## Pacman
 
